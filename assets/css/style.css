@@ -1,0 +1,38 @@
+body {
+    background-image: url("../images/game.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.ratings {
+    color: orangered;
+    font-family: avenir;
+    font-size: 18px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    background: black;
+    color: yellow;
+}
+
+.form-control {
+    width: 30%;
+}
+
+#add {
+    font-size: 20px;
+    color: white;
+}
+#add-games {
+    background-color: black;
+    color: yellow;
+}

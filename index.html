@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ghipy Retro!</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container" style="background: transparent;">
+        <h1 class="text-center">RETRO TROWBACK</h1>
+        <br>
+        <br>
+        <div id="game-buttons"> </div>
+        <br>
+        <br>
+        <div class="container" id="btn" style="background: transparent;">
+            <form id="games-form">
+                <label id="add" for="games-imput">Choose your game!</label>
+                <input type="text" class="form-control" id="games-imput">
+                <br>
+                <br>
+            </form>
+            <button onclick="submitButtonClicked()" type="button" id="add-games" class="btn btn-success">Start</button>
+            <br>
+            <br>
+            <div id="games"> </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/javascript/main.js"></script>
+</body>
+
+</html>
